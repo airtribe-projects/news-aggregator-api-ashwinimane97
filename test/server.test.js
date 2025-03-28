@@ -94,8 +94,6 @@ tap.test('GET /news without token', async (t) => {
     t.end();
 });
 
-
-
 tap.teardown(() => {
     process.exit(0);
 });
